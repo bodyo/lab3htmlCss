@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+*{
+    font-family: "Indie Flower", serif;
+}
+
+
+.nav_buttons{
+}
+
+body{
+    background-image: url("img/background.jpg");
+    background-size: cover;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav_buttons:hover{
+    background-color: #4E4A4A;
+}
+
+#logo{
+}
+
+.main-container {
+    width: 70%;
+    margin: auto;
+}
+
+.log_in {
+    background-image: url("img/Frame.svg");
+    display: inline-block;
+}
+
+#navigation_rect{
+    background-image: radial-gradient(circle, #747474, black);
+    height: auto;
+    text-align: center;
+    /* margin: auto; */
+}
+
+#navigation_list{
+}
+
+.content{
+    padding-top: 25px;
+    height: 100%;
+    overflow: auto;
+    background-color: gray;
+}
+
+.my_info{
+    /* display: flex; */
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+
+
+.my_image{
+    display: none;
+    width: 263px;
+    border-radius: 100%;
+}
+
+.my_image:hover
+{
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+}
+
+
+
+.my_expirience_header {
+    margin-top: 30px;
+    text-align: center;
+}
+
+
+.login {
+    vertical-align: middle;
+}
+
+@media(max-width:990px) {
+    
+    #navigation_rect {
+        font-size: 17pt;
+    }
+
+    .img-container {
+        text-align: center;
+    }
+
+    .img-container {
+        padding: 0px !important;
+    }
+
+    .main-container {
+        width: 100%;
+        margin: auto;
+    }
+
+    .text_info {
+        text-align: center;
+    }
+
+    .my_expirience {
+        margin-top: 30px;
+        font-size: 15pt;
+    }
+}   
